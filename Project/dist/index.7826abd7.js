@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("3a64e09843edc11e");
-var ErrorOverlay = require("a6fe952780a68217");
+var Refresh = require("c416c76e39cd112d");
+var ErrorOverlay = require("abfcd0e4da4385c2");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"3a64e09843edc11e":"786KC","a6fe952780a68217":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"c416c76e39cd112d":"786KC","abfcd0e4da4385c2":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("e7b17fb3ae01112a");
+module.exports = require("cf7445f6e4cdfae5");
 
-},{"e7b17fb3ae01112a":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"cf7445f6e4cdfae5":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("e7b17fb3ae01112a");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("dd2489ee4d49f86e");
+var process = require("8af353767b0df3f2");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("dd2489ee4d49f86e");
     ]);
 });
 
-},{"dd2489ee4d49f86e":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"8af353767b0df3f2":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -3562,13 +3562,16 @@ const Body = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "restaurant-list",
         children: restrauntList.map((restaurant)=>{
-            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Reataurant, {
-                restaurant: restaurant
-            }, restaurant.data.data.id, false, {
-                fileName: "App.js",
-                lineNumber: 596,
-                columnNumber: 11
-            }, undefined);
+            return /*#__PURE__*/ (0, _react.createElement)(Reataurant, {
+                ...restaurant.data.data,
+                key: restaurant.data.data.id,
+                __source: {
+                    fileName: "App.js",
+                    lineNumber: 596,
+                    columnNumber: 11
+                },
+                __self: undefined
+            });
         })
     }, void 0, false, {
         fileName: "App.js",
@@ -3587,43 +3590,43 @@ const Footer = ()=>{
     }, undefined);
 };
 _c3 = Footer;
-const Reataurant = (props)=>{
+const Reataurant = ({ name , cuisines , cloudinaryImageId , lastMileTravelString  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "card",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" + props.restaurant.data?.data?.cloudinaryImageId,
+                src: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" + cloudinaryImageId,
                 alt: ""
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 610,
+                lineNumber: 615,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: props.restaurant.data?.data?.name
+                children: name
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 617,
+                lineNumber: 622,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: props.restaurant?.data?.data?.cuisines.join(",")
+                children: cuisines.join(",")
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 618,
+                lineNumber: 623,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: props.restaurant.data?.data?.lastMileTravelString
+                children: lastMileTravelString
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 619,
+                lineNumber: 624,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 609,
+        lineNumber: 614,
         columnNumber: 5
     }, undefined);
 };
@@ -3633,17 +3636,17 @@ const AppLayout = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 627,
+                lineNumber: 632,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 628,
+                lineNumber: 633,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 629,
+                lineNumber: 634,
                 columnNumber: 7
             }, undefined)
         ]
@@ -3654,7 +3657,7 @@ const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {},
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 636,
+    lineNumber: 641,
     columnNumber: 13
 }, undefined));
 var _c, _c1, _c2, _c3, _c4, _c5;
@@ -3672,9 +3675,9 @@ $RefreshReg$(_c5, "AppLayout");
 }
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
-module.exports = require("7a97f5cf3404c6a8");
+module.exports = require("5a2bbc1f4c6994a4");
 
-},{"7a97f5cf3404c6a8":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"5a2bbc1f4c6994a4":"48uCM"}],"48uCM":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -3686,7 +3689,7 @@ module.exports = require("7a97f5cf3404c6a8");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("dcc71cbdf7b8f161");
+    var React = require("c068b82887937f65");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -4505,11 +4508,11 @@ module.exports = require("7a97f5cf3404c6a8");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"dcc71cbdf7b8f161":"21dqq"}],"21dqq":[function(require,module,exports) {
+},{"c068b82887937f65":"21dqq"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("2162f2944cf6e4b5");
+module.exports = require("68f79566bae88991");
 
-},{"2162f2944cf6e4b5":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"68f79566bae88991":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -6377,7 +6380,7 @@ module.exports = require("2162f2944cf6e4b5");
 
 },{}],"lOjBx":[function(require,module,exports) {
 "use strict";
-var m = require("b064ae6577717e01");
+var m = require("6aa9410d1a0d3a3b");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 exports.createRoot = function(c, o) {
     i.usingClientEntryPoint = true;
@@ -6396,7 +6399,7 @@ exports.hydrateRoot = function(c, h, o) {
     }
 };
 
-},{"b064ae6577717e01":"j6uA9"}],"j6uA9":[function(require,module,exports) {
+},{"6aa9410d1a0d3a3b":"j6uA9"}],"j6uA9":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -6410,9 +6413,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("79af6407d2c36a1e");
+module.exports = require("c5caecf765157fb6");
 
-},{"79af6407d2c36a1e":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"c5caecf765157fb6":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -6425,8 +6428,8 @@ module.exports = require("79af6407d2c36a1e");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("2c7c3a0b27e914ef");
-    var Scheduler = require("b4104529ab98a12a");
+    var React = require("cd47c8cac0e2296d");
+    var Scheduler = require("6e780e221da54b57");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -27397,11 +27400,11 @@ module.exports = require("79af6407d2c36a1e");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"2c7c3a0b27e914ef":"21dqq","b4104529ab98a12a":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"cd47c8cac0e2296d":"21dqq","6e780e221da54b57":"juvHo"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("3233a49b9dd4d68d");
+module.exports = require("67829c46e04de536");
 
-},{"3233a49b9dd4d68d":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"67829c46e04de536":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -27887,7 +27890,7 @@ exports.export = function(dest, destName, get) {
 
 },{}],"km3Ru":[function(require,module,exports) {
 "use strict";
-var Refresh = require("8aa31cf6cabd6950");
+var Refresh = require("9e3e69d75c62fe81");
 function debounce(func, delay) {
     var args;
     {
@@ -28019,6 +28022,6 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"8aa31cf6cabd6950":"786KC"}]},["1xC6H","e3CPO","2Ew96"], "2Ew96", "parcelRequirebbb8")
+},{"9e3e69d75c62fe81":"786KC"}]},["1xC6H","e3CPO","2Ew96"], "2Ew96", "parcelRequirebbb8")
 
 //# sourceMappingURL=index.7826abd7.js.map
