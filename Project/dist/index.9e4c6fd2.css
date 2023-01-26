@@ -21,7 +21,8 @@
 }
 
 .card {
-  width: 200px;
+  width: 250px;
+  height: 350px;
   border: 1px solid #000;
   margin: 10px;
   padding: 10px;
@@ -33,7 +34,89 @@
 
 .restaurant-list {
   flex-wrap: wrap;
+  justify-content: space-between;
   display: flex;
+}
+
+.shimmerCard {
+  width: 250px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 6px 8px #0000001a;
+}
+
+.shimmerBG {
+  background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%) 0 0 / 1200px 100%;
+  animation-name: shimmer;
+  animation-duration: 2.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: -100% 0;
+  }
+
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1200px 0;
+  }
+
+  100% {
+    background-position: 1200px 0;
+  }
+}
+
+.media {
+  height: 200px;
+}
+
+.p-32 {
+  padding: 32px;
+}
+
+.title-line {
+  height: 24px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.content-line {
+  height: 8px;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.end {
+  width: 40%;
+}
+
+.m-t-24 {
+  margin-top: 24px;
+}
+
+.shimmerContainer {
+  flex-flow: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.cuisines {
+  word-wrap: break-word;
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

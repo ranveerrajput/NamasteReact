@@ -2949,7 +2949,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/Footer":"8pPOA","./constants":"3huJa"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/Footer":"8pPOA","./constants":"3huJa","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("5a2bbc1f4c6994a4");
 
@@ -27134,7 +27134,104 @@ module.exports = require("67829c46e04de536");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"gkKU3":[function(require,module,exports) {
+},{}],"hsJbF":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$bfed = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$bfed.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+        href: "/",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+            className: "logo",
+            src: "https://yt3.googleusercontent.com/ytc/AMLnZu_EC-ECXAxRAixWGEfMsE1rdSoetBHyxmLNdtCB=s900-c-k-c0x00ffffff-no-rj",
+            alt: "logo"
+        }, void 0, false, {
+            fileName: "src/components/Header.js",
+            lineNumber: 3,
+            columnNumber: 5
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/Header.js",
+        lineNumber: 2,
+        columnNumber: 3
+    }, undefined);
+_c = Title;
+const Header = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "header",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
+                fileName: "src/components/Header.js",
+                lineNumber: 14,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "nav-items",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 17,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "About"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Contact"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Cart"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 20,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Header.js",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Header.js",
+                lineNumber: 15,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Header.js",
+        lineNumber: 13,
+        columnNumber: 5
+    }, undefined);
+};
+_c1 = Header;
+exports.default = Header;
+var _c, _c1;
+$RefreshReg$(_c, "Title");
+$RefreshReg$(_c1, "Header");
+
+  $parcel$ReactRefreshHelpers$bfed.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27298,104 +27395,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"9e3e69d75c62fe81":"786KC"}],"hsJbF":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$bfed = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$bfed.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-        href: "/",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-            className: "logo",
-            src: "https://yt3.googleusercontent.com/ytc/AMLnZu_EC-ECXAxRAixWGEfMsE1rdSoetBHyxmLNdtCB=s900-c-k-c0x00ffffff-no-rj",
-            alt: "logo"
-        }, void 0, false, {
-            fileName: "src/components/Header.js",
-            lineNumber: 3,
-            columnNumber: 5
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/components/Header.js",
-        lineNumber: 2,
-        columnNumber: 3
-    }, undefined);
-_c = Title;
-const Header = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "header",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
-                fileName: "src/components/Header.js",
-                lineNumber: 14,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "nav-items",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Home"
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 17,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "About"
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 18,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Contact"
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 19,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Cart"
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 20,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Header.js",
-                    lineNumber: 16,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/components/Header.js",
-                lineNumber: 15,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Header.js",
-        lineNumber: 13,
-        columnNumber: 5
-    }, undefined);
-};
-_c1 = Header;
-exports.default = Header;
-var _c, _c1;
-$RefreshReg$(_c, "Title");
-$RefreshReg$(_c1, "Header");
-
-  $parcel$ReactRefreshHelpers$bfed.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8yaV8":[function(require,module,exports) {
+},{"9e3e69d75c62fe81":"786KC"}],"8yaV8":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0606 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27409,16 +27409,98 @@ var _react = require("react");
 var _constants = require("../constants");
 var _restaurantCard = require("./RestaurantCard");
 var _restaurantCardDefault = parcelHelpers.interopDefault(_restaurantCard);
+var _shimmer = require("./Shimmer");
+var _shimmerDefault = parcelHelpers.interopDefault(_shimmer);
 var _s = $RefreshSig$();
-function filterData(searchInput, restaurants) {
-    const filtetrData = restaurants.filter((restaurant)=>restaurant.data.data.name.includes(searchInput));
+function filterData(searchInput, allRestaurants) {
+    const filtetrData = allRestaurants.filter((restaurant)=>restaurant?.data?.name?.toLowerCase()?.includes(searchInput.toLowerCase()));
     return filtetrData;
 }
 const Body = ()=>{
     _s();
-    const [restaurants, setRestaurants] = (0, _react.useState)((0, _constants.restrauntList));
+    const [allRestaurants, setAllRestaurants] = (0, _react.useState)([]);
+    const [filteredRestaurants, setFilteredRestaurants] = (0, _react.useState)([]);
     const [searchInput, setSearchInput] = (0, _react.useState)("");
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+    (0, _react.useEffect)(()=>{
+        //API CAll
+        getRestaurants();
+    }, []);
+    async function getRestaurants() {
+        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING");
+        const json = await data.json();
+        console.log(json);
+        //optional chaining
+        setAllRestaurants(json?.data?.cards[2]?.data?.data?.cards);
+        setFilteredRestaurants(json?.data?.cards[2]?.data?.data?.cards);
+    }
+    //conditional rendering
+    // If restaurant is not present then show the shimmer UI
+    //else shoe the restaurants
+    //no render component when we dont have restaurant (early return)
+    if (!allRestaurants) return null;
+    // if (filteredRestaurants?.length == 0)
+    //   return <h1>No restuarnts matches your search!!</h1>;
+    return allRestaurants.length == 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "shimmerContainer",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
+                    fileName: "src/components/Body.js",
+                    lineNumber: 47,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
+                    fileName: "src/components/Body.js",
+                    lineNumber: 48,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
+                    fileName: "src/components/Body.js",
+                    lineNumber: 49,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
+                    fileName: "src/components/Body.js",
+                    lineNumber: 50,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
+                    fileName: "src/components/Body.js",
+                    lineNumber: 51,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
+                    fileName: "src/components/Body.js",
+                    lineNumber: 52,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
+                    fileName: "src/components/Body.js",
+                    lineNumber: 53,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
+                    fileName: "src/components/Body.js",
+                    lineNumber: 54,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
+                    fileName: "src/components/Body.js",
+                    lineNumber: 55,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
+                    fileName: "src/components/Body.js",
+                    lineNumber: 56,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Body.js",
+            lineNumber: 46,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "search-container",
@@ -27433,36 +27515,36 @@ const Body = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 19,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                         className: "search-btn",
                         onClick: ()=>{
-                            const data = filterData(searchInput, restaurants);
-                            setRestaurants(data);
+                            const data = filterData(searchInput, allRestaurants);
+                            setFilteredRestaurants(data);
                         },
                         children: "Search"
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 28,
+                        lineNumber: 71,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Body.js",
-                lineNumber: 18,
+                lineNumber: 61,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "restaurant-list",
-                children: restaurants.map((restaurant)=>{
+                children: filteredRestaurants.map((restaurant)=>{
                     return /*#__PURE__*/ (0, _react.createElement)((0, _restaurantCardDefault.default), {
-                        ...restaurant.data.data,
-                        key: restaurant.data.data.id,
+                        ...restaurant.data,
+                        key: restaurant.data.id,
                         __source: {
                             fileName: "src/components/Body.js",
-                            lineNumber: 41,
+                            lineNumber: 84,
                             columnNumber: 13
                         },
                         __self: undefined
@@ -27470,13 +27552,13 @@ const Body = ()=>{
                 })
             }, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 38,
+                lineNumber: 81,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true);
 };
-_s(Body, "M3QhUu+4oAZdJlMmKeyfibyYr6Q=");
+_s(Body, "b2RdR+sNAiwoJD1TQYJbfvdtaJ8=");
 _c = Body;
 exports.default = Body;
 var _c;
@@ -27487,7 +27569,7 @@ $RefreshReg$(_c, "Body");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../constants":"3huJa","./RestaurantCard":"bMboU"}],"3huJa":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../constants":"3huJa","./RestaurantCard":"bMboU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Shimmer":"g6ZGj"}],"3huJa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "IMG_CDN_URL", ()=>IMG_CDN_URL);
@@ -27495,578 +27577,435 @@ parcelHelpers.export(exports, "restrauntList", ()=>restrauntList);
 const IMG_CDN_URL = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/";
 const restrauntList = [
     {
-        cardType: "restaurant",
-        layoutAlignmentType: "VERTICAL",
+        type: "restaurant",
         data: {
-            type: "restaurant",
-            data: {
-                type: "F",
-                id: "576382",
-                name: "La Pino'z Pizza",
-                uuid: "8369f69f-d5d3-4d3d-a6da-cd15c927f197",
-                city: "6",
-                area: "Hinjewadi",
-                totalRatingsString: "100+ ratings",
-                cloudinaryImageId: "qhfw858zccsx8kph6tch",
-                cuisines: [
-                    "Desserts",
-                    "Beverages",
-                    "Pizzas"
-                ],
-                tags: [],
-                costForTwo: 40000,
-                costForTwoString: "₹400 FOR TWO",
-                deliveryTime: 21,
-                minDeliveryTime: 21,
-                maxDeliveryTime: 21,
-                slaString: "21 MINS",
-                lastMileTravel: 0.8999999761581421,
-                slugs: {
-                    restaurant: "la-pino'z-pizza-hinjewadi-hinjewadi",
-                    city: "pune"
-                },
-                cityState: "6",
-                address: "Showroom No.: 3, Suratwala Mark Plazzo, Hinjewadi Phase 1, Pune (Maharastra)",
-                locality: "1st Phase",
-                parentId: 4961,
-                unserviceable: false,
-                veg: false,
-                select: false,
-                favorite: false,
-                tradeCampaignHeaders: [],
-                chain: [],
-                feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: ""
-                },
-                availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: ""
-                },
-                longDistanceEnabled: 0,
-                rainMode: "NONE",
-                thirdPartyAddress: false,
-                thirdPartyVendor: "",
-                adTrackingID: "",
-                badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: []
-                },
-                lastMileTravelString: "0.8 kms",
-                hasSurge: false,
-                aggregatedDiscountInfoV3: {
-                    header: "50% OFF",
-                    subHeader: "UPTO ₹80",
-                    discountTag: "",
-                    headerTypeV2: 0
-                },
-                sla: {
-                    restaurantId: "576382",
-                    deliveryTime: 21,
-                    minDeliveryTime: 21,
-                    maxDeliveryTime: 21,
-                    lastMileTravel: 0.8999999761581421,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY"
-                },
-                promoted: false,
-                avgRating: "3.4",
-                totalRatings: 100,
-                new: false
+            type: "F",
+            id: "118278",
+            name: "Namaste",
+            uuid: "81f6e475-dc52-4954-aefa-1dbcc740227d",
+            city: "1",
+            area: "BTM Layout",
+            totalRatingsString: "1000+ ratings",
+            cloudinaryImageId: "wya5kg7wxvbh5opfpo1m",
+            cuisines: [
+                "South Indian",
+                "Thalis",
+                "Snacks",
+                "Biryani",
+                "Indian",
+                "Chinese",
+                "Desserts",
+                "Beverages"
+            ],
+            tags: [],
+            costForTwo: 10000,
+            costForTwoString: "₹100 FOR TWO",
+            deliveryTime: 28,
+            minDeliveryTime: 28,
+            maxDeliveryTime: 28,
+            slaString: "28 MINS",
+            lastMileTravel: 4.099999904632568,
+            slugs: {
+                restaurant: "namaste-btm",
+                city: "bangalore"
             },
-            subtype: "basic"
-        },
-        parentWidget: false
-    },
-    {
-        cardType: "restaurant",
-        layoutAlignmentType: "VERTICAL",
-        data: {
-            type: "restaurant",
-            data: {
-                type: "F",
-                id: "57347",
-                name: "Reddy's Biryani Zone",
-                uuid: "2e980e82-68df-4b17-8df4-11fa33ce6977",
-                city: "6",
-                area: "Hinjawadi",
-                totalRatingsString: "1000+ ratings",
-                cloudinaryImageId: "ytwo1n5zaa7nplsnsryl",
-                cuisines: [
-                    "Biryani",
-                    "Mughlai",
-                    "North Indian"
-                ],
-                tags: [],
-                costForTwo: 40000,
-                costForTwoString: "₹400 FOR TWO",
-                deliveryTime: 18,
-                minDeliveryTime: 18,
-                maxDeliveryTime: 18,
-                slaString: "18 MINS",
-                lastMileTravel: 0.8999999761581421,
-                slugs: {
-                    restaurant: "reddys-biryani-zone-hinjewadi-hinjewadi",
-                    city: "pune"
-                },
-                cityState: "6",
-                address: "Phase 1, Opposite Kpit, Near Hinjewadi Hospital, Marunji Road, Hinjawadi, Pune",
-                locality: "Hinjewadi",
-                parentId: 11490,
-                unserviceable: false,
-                veg: false,
-                select: false,
-                favorite: false,
-                tradeCampaignHeaders: [],
-                chain: [],
-                feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: ""
-                },
-                availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: ""
-                },
-                longDistanceEnabled: 0,
-                rainMode: "NONE",
-                thirdPartyAddress: false,
-                thirdPartyVendor: "",
-                adTrackingID: "",
-                badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: []
-                },
-                lastMileTravelString: "0.8 kms",
-                hasSurge: false,
-                aggregatedDiscountInfoV3: {
-                    header: "₹75 OFF",
-                    subHeader: "ABOVE ₹299",
-                    discountTag: "FLAT DEAL",
-                    headerTypeV2: 0
-                },
-                sla: {
-                    restaurantId: "57347",
-                    deliveryTime: 18,
-                    minDeliveryTime: 18,
-                    maxDeliveryTime: 18,
-                    lastMileTravel: 0.8999999761581421,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY"
-                },
-                promoted: false,
-                avgRating: "3.9",
-                totalRatings: 1000,
-                new: false
-            },
-            subtype: "basic"
-        },
-        parentWidget: false
-    },
-    {
-        cardType: "restaurant",
-        layoutAlignmentType: "VERTICAL",
-        data: {
-            type: "restaurant",
-            data: {
-                type: "F",
-                id: "41800",
-                name: "Faasos - Wraps & Rolls",
-                uuid: "670e3850-1d57-4382-a110-f07bb7021b28",
-                city: "6",
-                area: "Hinjawadi",
-                totalRatingsString: "500+ ratings",
-                cloudinaryImageId: "zyugmhwykpmlu7ztdjis",
-                cuisines: [
-                    "Fast Food",
-                    "North Indian",
-                    "Street Food",
-                    "Desserts"
-                ],
-                tags: [],
-                costForTwo: 20000,
-                costForTwoString: "₹200 FOR TWO",
-                deliveryTime: 28,
-                minDeliveryTime: 28,
-                maxDeliveryTime: 28,
-                slaString: "28 MINS",
-                lastMileTravel: 2,
-                slugs: {
-                    restaurant: "faasos-rajiv-gandhi-infotech-park-hinjewadi",
-                    city: "pune"
-                },
-                cityState: "6",
-                address: "Central Co-Op Bank, 220, Hinjewadi Maan Road, Phase 1, Hinjewadi Rajiv Gandhi Infotech Park, Hinjawadi, Pune, Maharashtra - 411057",
-                locality: "Maan Road Om plaza 2nd floor",
-                parentId: 21809,
-                unserviceable: false,
-                veg: false,
-                select: false,
-                favorite: false,
-                tradeCampaignHeaders: [],
-                ribbon: [
+            cityState: "1",
+            address: "69, 7th Main Road, BTM 2nd Stage, Bangalore - 76",
+            locality: "2nd Stage",
+            parentId: 366271,
+            unserviceable: false,
+            veg: true,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
                     {
-                        type: "PROMOTED"
+                        meta: "50% off | Use TRYNEW",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
                     }
                 ],
-                chain: [],
-                feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: ""
-                },
-                availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: ""
-                },
-                longDistanceEnabled: 0,
-                rainMode: "NONE",
-                thirdPartyAddress: false,
-                thirdPartyVendor: "",
-                adTrackingID: "cid=5771844~p=7~eid=00000185-d476-0484-0c9f-2d26000e074e",
-                badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: []
-                },
-                lastMileTravelString: "2 kms",
-                hasSurge: false,
-                aggregatedDiscountInfoV3: {
-                    header: "50% OFF",
-                    subHeader: "UPTO ₹80",
-                    discountTag: "",
-                    headerTypeV2: 0
-                },
-                sla: {
-                    restaurantId: "41800",
-                    deliveryTime: 28,
-                    minDeliveryTime: 28,
-                    maxDeliveryTime: 28,
-                    lastMileTravel: 2,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY"
-                },
-                promoted: true,
-                avgRating: "4.2",
-                totalRatings: 500,
-                new: false
-            },
-            subtype: "basic"
-        },
-        parentWidget: false
-    },
-    {
-        cardType: "restaurant",
-        layoutAlignmentType: "VERTICAL",
-        data: {
-            type: "restaurant",
-            data: {
-                type: "F",
-                id: "3405",
-                name: "Rolls Mania",
-                uuid: "b194c29e-ca4a-49ba-ac69-d8a5beccb27e",
-                city: "6",
-                area: "Hinjewadi",
-                totalRatingsString: "500+ ratings",
-                cloudinaryImageId: "vsgw4z2dn2gmbsdgekyw",
-                cuisines: [
-                    "North Indian"
-                ],
-                tags: [],
-                costForTwo: 20000,
-                costForTwoString: "₹200 FOR TWO",
-                deliveryTime: 19,
-                minDeliveryTime: 19,
-                maxDeliveryTime: 19,
-                slaString: "19 MINS",
-                lastMileTravel: 0.5,
-                slugs: {
-                    restaurant: "rolls-mania-hinjewadi",
-                    city: "pune"
-                },
-                cityState: "6",
-                address: "Shop 3, Mhatoba Complex, Opposite KPIT Cummins, Shivtej Chowk,Hinjewadi, Pune",
-                locality: "Hinjewadi",
-                parentId: 171118,
-                unserviceable: false,
-                veg: false,
-                select: false,
-                favorite: false,
-                tradeCampaignHeaders: [],
-                chain: [],
-                feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: ""
-                },
-                availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: ""
-                },
-                longDistanceEnabled: 0,
-                rainMode: "NONE",
-                thirdPartyAddress: false,
-                thirdPartyVendor: "",
-                adTrackingID: "",
-                badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: []
-                },
-                lastMileTravelString: "0.5 kms",
-                hasSurge: false,
-                aggregatedDiscountInfoV3: {
-                    header: "50% OFF",
-                    subHeader: "UPTO ₹80",
-                    discountTag: "",
-                    headerTypeV2: 0
-                },
-                sla: {
-                    restaurantId: "3405",
-                    deliveryTime: 19,
-                    minDeliveryTime: 19,
-                    maxDeliveryTime: 19,
-                    lastMileTravel: 0.5,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY"
-                },
-                promoted: false,
-                avgRating: "4.2",
-                totalRatings: 500,
-                new: false
-            },
-            subtype: "basic"
-        },
-        parentWidget: false
-    },
-    {
-        cardType: "restaurant",
-        layoutAlignmentType: "VERTICAL",
-        data: {
-            type: "restaurant",
-            data: {
-                type: "F",
-                id: "381403",
-                name: "Mad Over Donuts",
-                uuid: "a10bcb60-58bc-4995-ac35-17fcdd99f8fc",
-                city: "6",
-                area: "Hinjewadi",
-                totalRatingsString: "50+ ratings",
-                cloudinaryImageId: "2553d78e7d2b3e9f80f367c244e880f3",
-                cuisines: [
-                    "Desserts",
-                    "Sweets",
-                    "Bakery"
-                ],
-                tags: [],
-                costForTwo: 20000,
-                costForTwoString: "₹200 FOR TWO",
-                deliveryTime: 17,
-                minDeliveryTime: 17,
-                maxDeliveryTime: 17,
-                slaString: "17 MINS",
-                lastMileTravel: 0.5,
-                slugs: {
-                    restaurant: "mad-over-donuts-bhatewara-nagar-hinjewadi",
-                    city: "pune"
-                },
-                cityState: "6",
-                address: "1st floor, s no 275/1 and 275/3, Time square Building, Bhatewara nagar, Dange chowk road, phase 1, hinjewadi, pune, pin 411057",
-                locality: "Bhatewara nagar",
-                parentId: 611,
-                unserviceable: false,
-                veg: true,
-                select: false,
-                favorite: false,
-                tradeCampaignHeaders: [],
-                chain: [],
-                feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: ""
-                },
-                availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: ""
-                },
-                longDistanceEnabled: 0,
-                rainMode: "NONE",
-                thirdPartyAddress: false,
-                thirdPartyVendor: "",
-                adTrackingID: "",
-                badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: []
-                },
-                lastMileTravelString: "0.5 kms",
-                hasSurge: false,
-                aggregatedDiscountInfoV3: {
-                    header: "50% OFF",
-                    subHeader: "UPTO ₹100",
-                    discountTag: "",
-                    headerTypeV2: 0
-                },
-                sla: {
-                    restaurantId: "381403",
-                    deliveryTime: 17,
-                    minDeliveryTime: 17,
-                    maxDeliveryTime: 17,
-                    lastMileTravel: 0.5,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY"
-                },
-                promoted: false,
-                avgRating: "3.5",
-                totalRatings: 50,
-                new: false
-            },
-            subtype: "basic"
-        },
-        parentWidget: false
-    },
-    {
-        cardType: "restaurant",
-        layoutAlignmentType: "VERTICAL",
-        data: {
-            type: "restaurant",
-            data: {
-                type: "F",
-                id: "60140",
-                name: "KGN Xprs",
-                uuid: "77cc6461-cdaa-4811-8d99-b8c972b52157",
-                city: "6",
-                area: "Wakad",
-                totalRatingsString: "100+ ratings",
-                cloudinaryImageId: "budged7wtkz0oa0fh4f3",
-                cuisines: [
-                    "Tandoor",
-                    "Biryani",
-                    "North Indian",
-                    "Chinese"
-                ],
-                tags: [],
-                costForTwo: 60000,
-                costForTwoString: "₹600 FOR TWO",
-                deliveryTime: 29,
-                minDeliveryTime: 29,
-                maxDeliveryTime: 29,
-                slaString: "29 MINS",
-                lastMileTravel: 3,
-                slugs: {
-                    restaurant: "kgn-xprs-wakad-wakad",
-                    city: "pune"
-                },
-                cityState: "6",
-                address: "shop no 1,manli chowk,dattamandir road,Wakad,Pune  near   chirryush hospital   ",
-                locality: "Pimple Saudagar",
-                parentId: 10145,
-                unserviceable: false,
-                veg: false,
-                select: false,
-                favorite: false,
-                tradeCampaignHeaders: [],
-                ribbon: [
+                descriptionList: [
                     {
-                        type: "PROMOTED"
+                        meta: "50% off up to ₹100 | Use code TRYNEW",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
                     }
                 ],
-                chain: [],
-                feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: ""
-                },
-                availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: ""
-                },
-                longDistanceEnabled: 0,
-                rainMode: "NONE",
-                thirdPartyAddress: false,
-                thirdPartyVendor: "",
-                adTrackingID: "cid=5756793~p=10~eid=00000185-d476-0484-0c9f-2d27000e0a02",
-                badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: []
-                },
-                lastMileTravelString: "3 kms",
-                hasSurge: false,
-                aggregatedDiscountInfoV3: {
-                    header: "50% OFF",
-                    subHeader: "UPTO ₹80",
-                    discountTag: "",
-                    headerTypeV2: 0
-                },
-                sla: {
-                    restaurantId: "60140",
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use TRYNEW",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹100 | Use code TRYNEW",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            ribbon: [
+                {
+                    type: "PROMOTED"
+                }
+            ],
+            chain: [
+                {
+                    tradeCampaignHeaders: [],
+                    avgRating: "4.0",
+                    totalRatings: 1000,
+                    area: "HSR Layout",
+                    city: "1",
+                    locality: "3rd Sector",
                     deliveryTime: 29,
                     minDeliveryTime: 29,
                     maxDeliveryTime: 29,
-                    lastMileTravel: 3,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY"
-                },
-                promoted: true,
-                avgRating: "3.9",
-                totalRatings: 100,
-                new: false
+                    slaString: "29 MINS",
+                    select: false,
+                    id: "241027",
+                    slugs: {
+                        restaurant: "namaste-hsr-hsr",
+                        city: "bangalore"
+                    },
+                    feeDetails: {
+                        restaurant_id: 0,
+                        fees: [],
+                        total_fee: 0,
+                        message: "",
+                        title: "",
+                        amount: "",
+                        icon: ""
+                    },
+                    promoted: false,
+                    adTrackingID: "",
+                    aggregatedDiscountInfo: {
+                        header: "50% off",
+                        shortDescriptionList: [
+                            {
+                                meta: "50% off | Use TRYNEW",
+                                discountType: "Percentage",
+                                operationType: "RESTAURANT"
+                            }
+                        ],
+                        descriptionList: [
+                            {
+                                meta: "50% off up to ₹100 | Use code TRYNEW",
+                                discountType: "Percentage",
+                                operationType: "RESTAURANT"
+                            }
+                        ],
+                        subHeader: "",
+                        headerType: 0,
+                        superFreedel: ""
+                    }
+                }
+            ],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
             },
-            subtype: "basic"
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "cid=5654352~p=1~eid=00000185-e6ae-4104-0834-962300c10109",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "4 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "118278",
+                deliveryTime: 28,
+                minDeliveryTime: 28,
+                maxDeliveryTime: 28,
+                lastMileTravel: 4.099999904632568,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: true,
+            avgRating: "4.2",
+            totalRatings: 1000,
+            new: false
         },
-        parentWidget: false
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "201224",
+            name: "Asha tiffins",
+            uuid: "e32381cf-6468-4c10-9bad-47fa08e898a8",
+            city: "1",
+            area: "HSR Layout",
+            totalRatingsString: "1000+ ratings",
+            cloudinaryImageId: "n15vckntsiboiod3gpco",
+            cuisines: [
+                "Indian",
+                "South Indian",
+                "Beverages"
+            ],
+            tags: [],
+            costForTwo: 20000,
+            costForTwoString: "₹200 FOR TWO",
+            deliveryTime: 26,
+            minDeliveryTime: 26,
+            maxDeliveryTime: 26,
+            slaString: "26 MINS",
+            lastMileTravel: 4,
+            slugs: {
+                restaurant: "asha-tiffins-hsr-hsr-2",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "Asha Tiffins, 5th Main Road, Sector 7, HSR Layout, Bengaluru, Karnataka, India",
+            locality: "7th Sector",
+            parentId: 236243,
+            unserviceable: false,
+            veg: true,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹100 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹100 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "4 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "201224",
+                deliveryTime: 26,
+                minDeliveryTime: 26,
+                maxDeliveryTime: 26,
+                lastMileTravel: 4,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: false,
+            avgRating: "4.4",
+            totalRatings: 1000,
+            new: false
+        },
+        subtype: "basic"
+    },
+    {
+        type: "restaurant",
+        data: {
+            type: "F",
+            id: "34301",
+            name: "Sri Udupi Park (100ft Road)",
+            uuid: "82e5a42b-6a2d-45c7-a096-320333bd6c4e",
+            city: "1",
+            area: "Indiranagar",
+            totalRatingsString: "1000+ ratings",
+            cloudinaryImageId: "jxp8y1chnqljwqylpkov",
+            cuisines: [
+                "South Indian",
+                "North Indian",
+                "Chaat",
+                "Beverages",
+                "Chinese"
+            ],
+            tags: [],
+            costForTwo: 10000,
+            costForTwoString: "₹100 FOR TWO",
+            deliveryTime: 34,
+            minDeliveryTime: 34,
+            maxDeliveryTime: 34,
+            slaString: "34 MINS",
+            lastMileTravel: 6.300000190734863,
+            slugs: {
+                restaurant: "sri-udupi-park-indiranagar-indiranagar",
+                city: "bangalore"
+            },
+            cityState: "1",
+            address: "#273 100 FEET ROAD DIFFENCE COLONY 6TH MAIN INDIRANAGAR BANGALORE-38",
+            locality: "Defence Colony",
+            parentId: 194697,
+            unserviceable: false,
+            veg: true,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: "50% off",
+                shortDescriptionList: [
+                    {
+                        meta: "50% off | Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹100 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            aggregatedDiscountInfoV2: {
+                header: "50% OFF",
+                shortDescriptionList: [
+                    {
+                        meta: "Use WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to ₹100 | Use code WELCOME50",
+                        discountType: "Percentage",
+                        operationType: "RESTAURANT"
+                    }
+                ],
+                subHeader: "",
+                headerType: 0,
+                superFreedel: ""
+            },
+            chain: [],
+            feeDetails: {
+                fees: [],
+                totalFees: 0,
+                message: "",
+                title: "",
+                amount: "",
+                icon: ""
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: "",
+                nextCloseMessage: ""
+            },
+            longDistanceEnabled: 0,
+            rainMode: "NONE",
+            thirdPartyAddress: false,
+            thirdPartyVendor: "",
+            adTrackingID: "",
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: "6.3 kms",
+            hasSurge: false,
+            sla: {
+                restaurantId: "34301",
+                deliveryTime: 34,
+                minDeliveryTime: 34,
+                maxDeliveryTime: 34,
+                lastMileTravel: 6.300000190734863,
+                lastMileDistance: 0,
+                serviceability: "SERVICEABLE",
+                rainMode: "NONE",
+                longDistance: "NOT_LONG_DISTANCE",
+                preferentialService: false,
+                iconType: "EMPTY"
+            },
+            promoted: false,
+            avgRating: "4.4",
+            totalRatings: 1000,
+            new: false
+        },
+        subtype: "basic"
     }
 ];
 
@@ -28101,6 +28040,7 @@ const RestaurantCard = ({ name , cuisines , cloudinaryImageId , lastMileTravelSt
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                className: "cuisines",
                 children: cuisines.join(",")
             }, void 0, false, {
                 fileName: "src/components/RestaurantCard.js",
@@ -28131,7 +28071,105 @@ $RefreshReg$(_c, "RestaurantCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../constants":"3huJa","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8pPOA":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../constants":"3huJa","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"g6ZGj":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$0b04 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$0b04.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const Shimmer = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            class: "shimmerCard",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    class: "shimmerBG media"
+                }, void 0, false, {
+                    fileName: "src/components/Shimmer.js",
+                    lineNumber: 5,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    class: "p-32",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            class: "shimmerBG title-line"
+                        }, void 0, false, {
+                            fileName: "src/components/Shimmer.js",
+                            lineNumber: 7,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            class: "shimmerBG title-line end"
+                        }, void 0, false, {
+                            fileName: "src/components/Shimmer.js",
+                            lineNumber: 8,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            class: "shimmerBG content-line m-t-24"
+                        }, void 0, false, {
+                            fileName: "src/components/Shimmer.js",
+                            lineNumber: 10,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            class: "shimmerBG content-line"
+                        }, void 0, false, {
+                            fileName: "src/components/Shimmer.js",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            class: "shimmerBG content-line"
+                        }, void 0, false, {
+                            fileName: "src/components/Shimmer.js",
+                            lineNumber: 12,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            class: "shimmerBG content-line"
+                        }, void 0, false, {
+                            fileName: "src/components/Shimmer.js",
+                            lineNumber: 13,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            class: "shimmerBG content-line end"
+                        }, void 0, false, {
+                            fileName: "src/components/Shimmer.js",
+                            lineNumber: 14,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Shimmer.js",
+                    lineNumber: 6,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Shimmer.js",
+            lineNumber: 4,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false);
+};
+_c = Shimmer;
+exports.default = Shimmer;
+var _c;
+$RefreshReg$(_c, "Shimmer");
+
+  $parcel$ReactRefreshHelpers$0b04.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8pPOA":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$bc7c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
